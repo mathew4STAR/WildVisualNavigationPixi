@@ -1,0 +1,26 @@
+<launch>
+  <!-- Launch Gazebo Empty World -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="false"/>
+    <arg name="debug" value="false"/>
+  </include>
+
+  <!-- Load robot description -->
+  <param name="robot_description" command="$(find xacro)/xacro '$(find wvn_sim)/urdf/diffbot.urdf.xacro'" />
+
+  <!-- Spawn the robot in Gazebo -->
+  <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+        args="-urdf -model diffbot -param robot_description -z 0.2"/>
+
+  <!-- Publish TF states -->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" output="screen">
+    <param name="publish_frequency" type="double" value="50.0" />
+  </node>
+
+  <!-- Launch WVN Node (which will automatically bridge to ML environment via shebang) -->
+  <include file="$(find wild_visual_navigation_ros)/launch/wild_visual_navigation.launch" />
+
+</launch>

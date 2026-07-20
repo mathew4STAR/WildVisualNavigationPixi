@@ -1,0 +1,23 @@
+[workspace]
+name = "pixi_test"
+channels = ["conda-forge", "robostack-staging"]
+platforms = ["linux-aarch64"]
+
+[environments]
+ml = ["ml-deps"]
+sim = ["sim-deps"]
+
+[feature.ml-deps.dependencies]
+python = "3.10.*"
+
+[feature.ml-deps.pypi-options]
+extra-index-urls = ["https://pypi.jetson-ai-lab.io/jp6/cu126", "https://rospypi.github.io/simple/"]
+
+[feature.ml-deps.pypi-dependencies]
+rospy = "*"
+std-msgs = "*"
+sensor-msgs = "*"
+
+[feature.sim-deps.dependencies]
+python = "3.12.*"
+ros-noetic-desktop = "*"

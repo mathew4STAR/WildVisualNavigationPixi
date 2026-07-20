@@ -1,0 +1,9 @@
+[workspace]
+channels = ["conda-forge", "https://prefix.dev/robostack-noetic", "https://prefix.dev/conda-forge"]
+name = "test_env"
+platforms = ["linux-aarch64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]

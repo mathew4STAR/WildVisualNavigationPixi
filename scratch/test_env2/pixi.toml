@@ -1,0 +1,10 @@
+[workspace]
+channels = ["conda-forge", "robostack-staging"]
+name = "test_env2"
+platforms = ["linux-aarch64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+ros-noetic-desktop = ">=1.5.0,<2"
