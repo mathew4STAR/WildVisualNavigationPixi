@@ -11,4 +11,11 @@
   <depend>gazebo_ros</depend>
   <depend>xacro</depend>
   <depend>robot_state_publisher</depend>
+  <depend>rospy</depend>
+  <depend>nav_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+
+  <exec_depend>wild_visual_navigation_msgs</exec_depend>
+  <exec_depend>wild_visual_navigation_ros</exec_depend>
 </package>

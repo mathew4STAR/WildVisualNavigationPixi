@@ -20,7 +20,12 @@
     <param name="publish_frequency" type="double" value="50.0" />
   </node>
 
-  <!-- Launch WVN Node (which will automatically bridge to ML environment via shebang) -->
-  <include file="$(find wild_visual_navigation_ros)/launch/wild_visual_navigation.launch" />
+  <!-- Convert diffbot /odom and /cmd_vel into WVN's expected message types -->
+  <node name="diffbot_state_converter_node" pkg="wvn_sim" type="diffbot_state_converter_node.py" output="screen"/>
+
+  <!-- Launch WVN nodes (auto-bridge to ML environment via shebang) -->
+  <include file="$(find wild_visual_navigation_ros)/launch/wild_visual_navigation.launch">
+    <arg name="params_file" value="$(find wvn_sim)/config/diffbot.yaml"/>
+  </include>
 
 </launch>

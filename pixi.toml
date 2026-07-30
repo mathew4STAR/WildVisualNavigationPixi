@@ -30,7 +30,7 @@ pandas = "*"
 opencv = "*"
 openblas = "*"
 openmpi = "*"
-
+boost = ">=1.85.0,<2"
 [feature.ml-deps.pypi-options]
 extra-index-urls = ["https://pypi.jetson-ai-lab.io/jp6/cu126", "https://rospypi.github.io/simple/"]
 index-strategy = "unsafe-best-match"
@@ -70,6 +70,7 @@ flake8 = "*"
 # Pure-Python ROS 1 (via rospypi)
 rospy = "*"
 rospkg = "*"
+catkin_pkg = "*"
 std-msgs = "*"
 sensor-msgs = "*"
 geometry-msgs = "*"
@@ -103,5 +104,5 @@ ros-noetic-xacro = "*"
 ros-noetic-robot-state-publisher = "*"
 
 [feature.sim-deps.tasks]
-build = "catkin build -DPython_FIND_VIRTUALENV=ONLY -DPython3_FIND_VIRTUALENV=ONLY"
-launch-sim = "source devel/setup.bash && roslaunch wild_visual_navigation_jackal sim.launch"
+build = "catkin build"
+launch-sim = "source devel/setup.bash && roslaunch wvn_sim sim.launch"
