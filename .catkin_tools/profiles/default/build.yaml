@@ -1,0 +1,26 @@
+authors: []
+blacklist: []
+build_space: build
+catkin_make_args: []
+cmake_args:
+- -DPython_FIND_VIRTUALENV=ONLY
+- -DPython3_FIND_VIRTUALENV=ONLY
+- -DCMAKE_POLICY_VERSION_MINIMUM=3.5
+- -DPYTHON_EXECUTABLE=/home/airlagx1/elevation_tests/wvn_git/.pixi/envs/ml/bin/python3.10
+devel_layout: linked
+devel_space: devel
+extend_path: null
+extends: null
+install: false
+install_space: install
+isolate_install: false
+jobs_args: []
+licenses:
+- TODO
+log_space: logs
+maintainers: []
+make_args: []
+source_space: src
+use_env_cache: false
+use_internal_make_jobserver: true
+whitelist: []

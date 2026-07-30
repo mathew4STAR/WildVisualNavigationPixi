@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>wvn_sim</name>
+  <version>0.0.1</version>
+  <description>Custom Gazebo Diff-Drive Simulation for WVN</description>
+  <maintainer email="airlagx1@example.com">AirLagx1</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>gazebo_ros</depend>
+  <depend>xacro</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>rospy</depend>
+  <depend>nav_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+
+  <exec_depend>wild_visual_navigation_msgs</exec_depend>
+  <exec_depend>wild_visual_navigation_ros</exec_depend>
+</package>

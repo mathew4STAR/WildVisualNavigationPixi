@@ -83,6 +83,7 @@ liegroups = { git = "https://github.com/mmattamala/liegroups" }
 # Local Editable Installs
 wild_visual_navigation = { path = "./src/wild_visual_navigation", editable = true }
 stego = { path = "./src/self_supervised_segmentation", editable = true }
+tf2-msgs = ">=0.7.2.post3, <0.8"
 
 [feature.ml-deps.tasks]
 launch-ml = "python src/wild_visual_navigation/wild_visual_navigation_ros/scripts/wvn_feature_extractor_node.py"

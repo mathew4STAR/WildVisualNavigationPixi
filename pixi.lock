@@ -477,6 +477,7 @@ environments:
       - pypi: https://github.com/rospypi/simple/raw/any/rospy/rospy-1.15.11-py2.py3-none-any.whl
       - pypi: https://github.com/rospypi/simple/raw/any/sensor-msgs/sensor_msgs-1.13.0.post3-py2.py3-none-any.whl
       - pypi: https://github.com/rospypi/simple/raw/any/std-msgs/std_msgs-0.5.13.post0-py2.py3-none-any.whl
+      - pypi: https://github.com/rospypi/simple/raw/any/tf2-msgs/tf2_msgs-0.7.2.post3-py2.py3-none-any.whl
   sim:
     channels:
     - url: https://conda.anaconda.org/conda-forge/
@@ -17201,6 +17202,12 @@ packages:
 - pypi: https://github.com/rospypi/simple/raw/any/std-msgs/std_msgs-0.5.13.post0-py2.py3-none-any.whl
   name: std-msgs
   version: 0.5.13.post0
+  index: https://rospypi.github.io/simple/
+  requires_dist:
+  - genpy>=0.6.14,<2000
+- pypi: https://github.com/rospypi/simple/raw/any/tf2-msgs/tf2_msgs-0.7.2.post3-py2.py3-none-any.whl
+  name: tf2-msgs
+  version: 0.7.2.post3
   index: https://rospypi.github.io/simple/
   requires_dist:
   - genpy>=0.6.14,<2000
