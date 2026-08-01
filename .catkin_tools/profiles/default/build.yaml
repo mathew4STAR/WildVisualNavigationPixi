@@ -6,7 +6,7 @@ cmake_args:
 - -DPython_FIND_VIRTUALENV=ONLY
 - -DPython3_FIND_VIRTUALENV=ONLY
 - -DCMAKE_POLICY_VERSION_MINIMUM=3.5
-- -DPYTHON_EXECUTABLE=/home/airlagx1/elevation_tests/wvn_git/.pixi/envs/ml/bin/python3.10
+- -DPYTHON_EXECUTABLE=/home/airlagx1/elevation_tests/wvn_git/.pixi/envs/sim/bin/python
 devel_layout: linked
 devel_space: devel
 extend_path: null

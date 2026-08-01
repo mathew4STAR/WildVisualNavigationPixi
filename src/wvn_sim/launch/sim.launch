@@ -1,6 +1,7 @@
 <launch>
   <!-- Launch Gazebo Empty World -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find wvn_sim)/worlds/obstacle_course.world"/>
     <arg name="paused" value="false"/>
     <arg name="use_sim_time" value="true"/>
     <arg name="gui" value="true"/>

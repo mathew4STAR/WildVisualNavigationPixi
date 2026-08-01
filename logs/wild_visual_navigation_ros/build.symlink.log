@@ -1,0 +1,9 @@
+Symlinking /home/airlagx1/elevation_tests/wvn_git/devel/lib/pkgconfig/wild_visual_navigation_ros.pc
+Symlinking /home/airlagx1/elevation_tests/wvn_git/devel/lib/wild_visual_navigation_ros/wvn_learning_node.py
+Symlinking /home/airlagx1/elevation_tests/wvn_git/devel/lib/wild_visual_navigation_ros/wvn_feature_extractor_node.py
+Symlinking /home/airlagx1/elevation_tests/wvn_git/devel/lib/wild_visual_navigation_ros/overlay_images.py
+Symlinking /home/airlagx1/elevation_tests/wvn_git/devel/lib/wild_visual_navigation_ros/smart_carrot.py
+Symlinking /home/airlagx1/elevation_tests/wvn_git/devel/lib/wild_visual_navigation_ros/rosbag_play.sh
+Symlinking /home/airlagx1/elevation_tests/wvn_git/devel/lib/python3.12/site-packages/wild_visual_navigation_ros/__init__.py
+Symlinking /home/airlagx1/elevation_tests/wvn_git/devel/share/wild_visual_navigation_ros/cmake/wild_visual_navigation_rosConfig.cmake
+Symlinking /home/airlagx1/elevation_tests/wvn_git/devel/share/wild_visual_navigation_ros/cmake/wild_visual_navigation_rosConfig-version.cmake

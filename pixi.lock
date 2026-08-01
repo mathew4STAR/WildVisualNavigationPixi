@@ -1101,6 +1101,7 @@ environments:
       - conda: https://conda.anaconda.org/robostack-staging/linux-aarch64/ros-noetic-std-msgs-0.5.14-np2py312hfcdb6d7_24.conda
       - conda: https://conda.anaconda.org/robostack-staging/linux-aarch64/ros-noetic-std-srvs-1.11.4-np2py312hfcdb6d7_24.conda
       - conda: https://conda.anaconda.org/robostack-staging/linux-aarch64/ros-noetic-stereo-msgs-1.13.2-np2py312hfcdb6d7_24.conda
+      - conda: https://conda.anaconda.org/robostack-staging/linux-aarch64/ros-noetic-teleop-twist-keyboard-1.0.0-np2py312hfcdb6d7_24.conda
       - conda: https://conda.anaconda.org/robostack-staging/linux-aarch64/ros-noetic-tf-1.13.4-np2py312h1489e15_24.conda
       - conda: https://conda.anaconda.org/robostack-staging/linux-aarch64/ros-noetic-tf-conversions-1.13.4-np2py312hfcdb6d7_24.conda
       - conda: https://conda.anaconda.org/robostack-staging/linux-aarch64/ros-noetic-tf2-0.7.10-np2py312hfcdb6d7_24.conda
@@ -13649,6 +13650,22 @@ packages:
   license: BSD-3-Clause
   size: 38840
   timestamp: 1773549745066
+- conda: https://conda.anaconda.org/robostack-staging/linux-aarch64/ros-noetic-teleop-twist-keyboard-1.0.0-np2py312hfcdb6d7_24.conda
+  sha256: 5e563a66dc4863ab4d64166b72856a8df65cf811a706e48740c7a49a73e7b654
+  md5: b13e050ed59cebc3d45dbc06ed04101a
+  depends:
+  - python
+  - ros-distro-mutex 0.7.* noetic_*
+  - ros-noetic-geometry-msgs
+  - ros-noetic-rospy
+  - libgcc >=13
+  - libstdcxx >=13
+  - ros-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.23,<3
+  - python_abi 3.12.* *_cp312
+  license: BSD-3-Clause
+  size: 31128
+  timestamp: 1773549118984
 - conda: https://conda.anaconda.org/robostack-staging/linux-aarch64/ros-noetic-tf-1.13.4-np2py312h1489e15_24.conda
   sha256: 3b13e811135aa5cfa1c4240683d2a213a90f4f1827a78716a681b929d86d81d3
   md5: 10d34422c421a61899cf865f43907d57

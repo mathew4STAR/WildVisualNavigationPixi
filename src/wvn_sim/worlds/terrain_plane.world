@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="default">
+    <!-- A global light source -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <model name="terrain">
+      <static>true</static>
+      <link name="terrain_link">
+        <collision name="terrain_collision">
+          <geometry>
+            <mesh>
+              <uri>package://wvn_sim/meshes/terrainplane.obj</uri>
+              <scale>0.7 0.7 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="terrain_visual">
+          <geometry>
+            <mesh>
+              <uri>package://wvn_sim/meshes/terrainplane.obj</uri>
+              <scale>0.7 0.7 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+  </world>
+</sdf>

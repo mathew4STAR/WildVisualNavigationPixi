@@ -103,7 +103,9 @@ ros-noetic-std-msgs = "*"
 ros-noetic-gazebo-ros-pkgs = "*"
 ros-noetic-xacro = "*"
 ros-noetic-robot-state-publisher = "*"
-
+ros-noetic-teleop-twist-keyboard = "*"
 [feature.sim-deps.tasks]
 build = "catkin build"
 launch-sim = "source devel/setup.bash && roslaunch wvn_sim sim.launch"
+
+

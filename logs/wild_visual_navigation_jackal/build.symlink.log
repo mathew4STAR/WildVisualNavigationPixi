@@ -1,0 +1,6 @@
+Symlinking /home/airlagx1/elevation_tests/wvn_git/devel/lib/pkgconfig/wild_visual_navigation_jackal.pc
+Symlinking /home/airlagx1/elevation_tests/wvn_git/devel/lib/wild_visual_navigation_jackal/gazebo_world_publisher.py
+Symlinking /home/airlagx1/elevation_tests/wvn_git/devel/lib/wild_visual_navigation_jackal/carrot_follower.py
+Symlinking /home/airlagx1/elevation_tests/wvn_git/devel/lib/wild_visual_navigation_jackal/jackal_state_converter_node.py
+Symlinking /home/airlagx1/elevation_tests/wvn_git/devel/share/wild_visual_navigation_jackal/cmake/wild_visual_navigation_jackalConfig.cmake
+Symlinking /home/airlagx1/elevation_tests/wvn_git/devel/share/wild_visual_navigation_jackal/cmake/wild_visual_navigation_jackalConfig-version.cmake

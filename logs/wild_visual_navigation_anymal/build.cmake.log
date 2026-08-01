@@ -1,0 +1,85 @@
+Not searching for unused variables given on the command line.
+[0mCMake Deprecation Warning at CMakeLists.txt:6 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+[36m--[0m The C compiler identification is GNU 11.4.0
+[36m--[0m The CXX compiler identification is GNU 11.4.0
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Check for working C compiler: /usr/bin/cc - skipped
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Check for working CXX compiler: /usr/bin/c++ - skipped
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/airlagx1/elevation_tests/wvn_git/devel/.private/wild_visual_navigation_anymal
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/airlagx1/elevation_tests/wvn_git/devel;/home/airlagx1/elevation_tests/wvn_git/.pixi/envs/sim;/home/airlagx1/Copernicus_trees/copernicus_ws/install/velodyne;/home/airlagx1/Copernicus_trees/copernicus_ws/install/velodyne_pointcloud;/home/airlagx1/Copernicus_trees/copernicus_ws/install/velodyne_driver;/home/airlagx1/Copernicus_trees/copernicus_ws/install/velodyne_msgs;/home/airlagx1/Copernicus_trees/copernicus_ws/install/velodyne_laserscan;/home/airlagx1/Copernicus_trees/copernicus_ws/install/lidarslam;/home/airlagx1/Copernicus_trees/copernicus_ws/install/scanmatcher;/home/airlagx1/Copernicus_trees/copernicus_ws/install/pointcloud_filters;/home/airlagx1/Copernicus_trees/copernicus_ws/install/lidar_localization_ros2;/home/airlagx1/Copernicus_trees/copernicus_ws/install/graph_based_slam;/home/airlagx1/Copernicus_trees/copernicus_ws/install/ndt_omp_ros2;/home/airlagx1/Copernicus_trees/copernicus_ws/install/nav2_static_file_layer_costmap_plugin;/home/airlagx1/Copernicus_trees/copernicus_ws/install/lidarslam_msgs;/home/airlagx1/Copernicus_trees/copernicus_ws/install/copernicus_navigation;/home/airlagx1/Copernicus_trees/copernicus_ws/install/copernicus_nav2;/home/airlagx1/Copernicus_trees/copernicus_ws/install/copernicus_localization;/home/airlagx1/Copernicus_trees/copernicus_ws/install/copernicus_description;/home/airlagx1/Copernicus_trees/copernicus_ws/install/copernicus_bringup;/home/airlagx1/Copernicus_trees/xsens_ws/install/xsens_mti_ros2_driver;/home/airlagx1/Copernicus_trees/xsens_ws/install/ntrip;/home/airlagx1/ros-humble-ros1-bridge/install/ros1_bridge
+[36m--[0m This workspace overlays: /home/airlagx1/elevation_tests/wvn_git/devel;/home/airlagx1/elevation_tests/wvn_git/.pixi/envs/sim
+[33mCMake Warning (dev) at /home/airlagx1/elevation_tests/wvn_git/.pixi/envs/sim/share/catkin/cmake/python.cmake:4 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+[36mCall Stack (most recent call first):[0m
+  /home/airlagx1/elevation_tests/wvn_git/.pixi/envs/sim/share/catkin/cmake/all.cmake:164 (include)
+  /home/airlagx1/elevation_tests/wvn_git/.pixi/envs/sim/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:18 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[36m--[0m Found PythonInterp: /home/airlagx1/elevation_tests/wvn_git/.pixi/envs/sim/bin/python (found suitable version "3.12.13", minimum required is "3.12")
+[36m--[0m Using PYTHON_EXECUTABLE: /home/airlagx1/elevation_tests/wvn_git/.pixi/envs/sim/bin/python
+[36m--[0m Using default Python package layout
+[36m--[0m Found PY_em: /home/airlagx1/elevation_tests/wvn_git/.pixi/envs/sim/lib/python3.12/site-packages/em.py
+[36m--[0m Using empy: /home/airlagx1/elevation_tests/wvn_git/.pixi/envs/sim/lib/python3.12/site-packages/em.py
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/airlagx1/elevation_tests/wvn_git/build/wild_visual_navigation_anymal/test_results
+[36m--[0m Forcing gtest/gmock from source, though one was otherwise available.
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[0mCMake Deprecation Warning at /usr/src/googletest/CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+[0mCMake Deprecation Warning at /usr/src/googletest/googlemock/CMakeLists.txt:47 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+[0mCMake Deprecation Warning at /usr/src/googletest/googletest/CMakeLists.txt:58 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+[36m--[0m Found Python: /home/airlagx1/elevation_tests/wvn_git/.pixi/envs/sim/bin/python3.12 (found version "3.12.13") found components: Interpreter
+[36m--[0m Found Threads: TRUE
+[36m--[0m Using Python nosetests: /home/airlagx1/elevation_tests/wvn_git/.pixi/envs/sim/bin/nosetests
+[36m--[0m catkin 0.8.12
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[36m--[0m Installing devel-space wrapper /home/airlagx1/elevation_tests/wvn_git/src/wild_visual_navigation/wild_visual_navigation_anymal/scripts/anymal_msg_converter_node.py to /home/airlagx1/elevation_tests/wvn_git/devel/.private/wild_visual_navigation_anymal/lib/wild_visual_navigation_anymal
+[36m--[0m Installing devel-space wrapper /home/airlagx1/elevation_tests/wvn_git/src/wild_visual_navigation/wild_visual_navigation_anymal/scripts/policy_debug_info_converter_node.py to /home/airlagx1/elevation_tests/wvn_git/devel/.private/wild_visual_navigation_anymal/lib/wild_visual_navigation_anymal
+[36m--[0m Configuring done (3.5s)
+[36m--[0m Generating done (0.1s)
+[36m--[0m Build files have been written to: /home/airlagx1/elevation_tests/wvn_git/build/wild_visual_navigation_anymal
